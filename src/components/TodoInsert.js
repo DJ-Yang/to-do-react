@@ -21,8 +21,8 @@ const TodoInsert = ({ onInsert }) => {
     [onInsert, value],
   );
 
+  // onSubmit 함수를 form 태그에 넣어줘야한다.. 이것 헷갈렸음..
   return (
-    // onSubmit 함수를 form 태그에 넣어줘야한다.. 이것 헷갈렸음..
     <form className="TodoInsert" onSubmit={onSubmit}>
       <input
         placeholder="할 일을 입력하세요"
